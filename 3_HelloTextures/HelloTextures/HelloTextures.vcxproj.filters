@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common code">
+      <UniqueIdentifier>{e4a7388d-354d-4e65-b8c2-5709a55d821b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common code\headers">
+      <UniqueIdentifier>{5fc23e69-4740-4865-bc47-c4a96cb4f9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common code\src">
+      <UniqueIdentifier>{4ecec820-c252-4c8e-a60f-dcda7b221858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d1864ccb-9378-4b29-8785-9cdfc37f0a34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Origem.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\src\glad.c">
+      <Filter>Common code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\src\Shader.cpp">
+      <Filter>Common code\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\src\stb_image.cpp">
+      <Filter>Common code\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\include\Shader.h">
+      <Filter>Common code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\include\stb_image.h">
+      <Filter>Common code\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\sprite.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\sprite.vs">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
